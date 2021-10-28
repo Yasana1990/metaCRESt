@@ -5,6 +5,7 @@ import numpy as np
 from scipy.stats import spearmanr
 from scipy.stats import pearsonr
 
+#NB: нужен комментарий, что эта функция только для обработки файлов из работы Desai определённого типа
 def desai_processing(Funx, FunxBact, rel = 'yes'):
     df = pd.read_csv('desai.txt', sep = '\t')    
     lstBact = []
@@ -13,7 +14,8 @@ def desai_processing(Funx, FunxBact, rel = 'yes'):
     dct = {}
     df = df[df.Sampletype == 'cecal']
     for f in Funx:
-        dct[f] = {}    
+        dct[f] = {}
+        #NB: комментарии, везде комментарии
         for g in df.Group.unique():
             dfG = df[df.Group == g]
             dct[f][g] = []  
@@ -25,7 +27,8 @@ def desai_processing(Funx, FunxBact, rel = 'yes'):
                 if rel == 'yes':
                     allF = 0   
                     for b in range(0, len(lstBact)):
-                        allF += df.loc[i, lstBact[b]] 
+                        allF += df.loc[i, lstBact[b]]
+                #NB: Что за magic number?
                 elif rel == 'no': allF = 100
                 else: print('incorrect input!')
                 dct[f][g].append(var/allF)
@@ -54,6 +57,7 @@ def functional_processing(Funx, rel = 'yes', zoomFactor = 5000):
     for f in Funx: 
         for d in df.diet.unique():
             tD = d
+            #NB: ммм... это надо обсудить
             while (tD[-1]) in str(list(range(0,10))): tD = tD [0:-1]  
             if tD not in dct[f]:
                 dct[f][tD] = dct[f].pop(d)           
@@ -99,7 +103,8 @@ def calculate_statistics(funcGroup, deletionList = []):
         if dietDel in dataFunc[funcGroup]: del dataFunc[funcGroup][dietDel]
     for dietDel in deletionList: 
         if dietDel in dataTax[funcGroup]: del dataTax[funcGroup][dietDel]
-        
+
+    #NB: надо обсудить
     #pairwise match all values from dataFunc to all values from dataTax for each functional group:
     a = []
     b = []
@@ -116,7 +121,8 @@ def calculate_statistics(funcGroup, deletionList = []):
 #Data:
 Markers = ['muc2', 'but1','acet1','sulfat1']
 # list of bacteria corresponding to functional groups:
-LstBacteria = [['Amuc','Bc','Bt','Bar'], ['Eur','Ros','Csum','Fpra'],['Mfor'],['Des']]  
+#NB: где-то должна быть расшифровка этих сокращений
+LstBacteria = [['Amuc','Bc','Bt','Bar'], ['Eur','Ros','Csum','Fpra'],['Mfor'],['Des']]
 usedМarker = 'sulfat1'
 deletedDiets = ['FP','P']
 
@@ -126,6 +132,7 @@ deletedDiets = ['FP','P']
 dataTax = desai_processing(Markers,LstBacteria)           
 dataFunc = functional_processing(Markers)
 
+#NB: dataFunc и dataTax нужно передавать в plotting и calculate_statistics в качестве аргументов
 plotting(usedМarker,deletedDiets)
 calculate_statistics(usedМarker,deletedDiets)
     
