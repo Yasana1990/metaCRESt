@@ -4,7 +4,7 @@ import seaborn as sns
 import numpy as np
 from scipy.stats import spearmanr
 from scipy.stats import pearsonr
-
+#TEST
 #NB: нужен комментарий, что эта функция только для обработки файлов из работы Desai определённого типа
 def desai_processing(Funx, FunxBact, rel = 'yes'):
     df = pd.read_csv('desai.txt', sep = '\t')    
