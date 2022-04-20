@@ -1,0 +1,15 @@
+free_rich	FR1	fastq_1/FR1_1-mus-hum-p.fastq
+free_rich	FR2	fastq_1/FR2_1-mus-hum-p.fastq
+free_rich	FR3	fastq_1/FR2_1-mus-hum-p.fastq
+free_pre	FP1	fastq_1/FR2_1-mus-hum-p.fastq
+free_pre	FP2	fastq_1/FR2_1-mus-hum-p.fastq
+free_pre	FP3	fastq_1/FR2_1-mus-hum-p.fastq
+pre	P1	fastq_1/P1_1-mus-hum-p.fastq
+pre	P2	fastq_1/P2_1-mus-hum-p.fastq
+pre	P3	fastq_1/P3_1-mus-hum-p.fastq
+free	F1	fastq_1/F1_1-mus-hum-p.fastq
+free	F2	fastq_1/F2_1-mus-hum-p.fastq
+free	F3	fastq_1/F3_1-mus-hum-p.fastq
+rich	R1	fastq_1/R1_1-mus-hum-p.fastq
+rich	R2	fastq_1/R2_1-mus-hum-p.fastq
+rich	R3	fastq_1/R3_1-mus-hum-p.fastq

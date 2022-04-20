@@ -1,0 +1,15 @@
+abundance/F1.Kal/abundance.tsv:TRINITY_DN95_c0_g1_i1	12271	12220	4407.79	130.763
+abundance/F2.Kal/abundance.tsv:TRINITY_DN95_c0_g1_i1	12271	12220	3687.68	85.905
+abundance/F3.Kal/abundance.tsv:TRINITY_DN95_c0_g1_i1	12271	12220	2680.51	153.249
+abundance/FP1.Kal/abundance.tsv:TRINITY_DN95_c0_g1_i1	12271	12220	29074	238.338
+abundance/FP2.Kal/abundance.tsv:TRINITY_DN95_c0_g1_i1	12271	12220	27108.4	340.333
+abundance/FP3.Kal/abundance.tsv:TRINITY_DN95_c0_g1_i1	12271	12220	19933.2	263.215
+abundance/FR1.Kal/abundance.tsv:TRINITY_DN95_c0_g1_i1	12271	12220	17767.7	188.973
+abundance/FR2.Kal/abundance.tsv:TRINITY_DN95_c0_g1_i1	12271	12220	36472	486.119
+abundance/FR3.Kal/abundance.tsv:TRINITY_DN95_c0_g1_i1	12271	12220	34671.6	435.243
+abundance/P1.Kal/abundance.tsv:TRINITY_DN95_c0_g1_i1	12271	12220	2015.29	54.8598
+abundance/P2.Kal/abundance.tsv:TRINITY_DN95_c0_g1_i1	12271	12220	5265.05	160.419
+abundance/P3.Kal/abundance.tsv:TRINITY_DN95_c0_g1_i1	12271	12220	14522.3	302.262
+abundance/R1.Kal/abundance.tsv:TRINITY_DN95_c0_g1_i1	12271	12220	15121	303.353
+abundance/R2.Kal/abundance.tsv:TRINITY_DN95_c0_g1_i1	12271	12220	7424.51	159.81
+abundance/R3.Kal/abundance.tsv:TRINITY_DN95_c0_g1_i1	12271	12220	18780.8	388.449

@@ -1,0 +1,638 @@
+TBLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: User specified sequence set (Input:
+data/trinity_out_dir/Trinity.fasta).
+           45,832 sequences; 55,488,881 total letters
+
+
+
+Query= WP_040369683.1 dissimilatory-type sulfite reductase subunit beta
+[Desulfovibrio piger]
+
+Length=381
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+TRINITY_DN440_c0_g1_i1 len=3215 path=[0:0-3214]                       798     0.0  
+TRINITY_DN1754_c0_g1_i1 len=3106 path=[0:0-3105]                      59.7    2e-09
+TRINITY_DN39135_c0_g1_i1 len=487 path=[0:0-486]                       35.4    0.033
+TRINITY_DN5110_c0_g1_i1 len=7445 path=[0:0-7444]                      36.2    0.067
+TRINITY_DN677_c0_g3_i1 len=51993 path=[1:0-14168 11:14169-14197 1...  33.9    0.32 
+TRINITY_DN677_c0_g3_i3 len=52098 path=[1:0-14168 11:14169-14197 1...  33.9    0.32 
+TRINITY_DN33758_c0_g1_i1 len=316 path=[0:0-315]                       31.6    0.36 
+TRINITY_DN1505_c0_g1_i2 len=19935 path=[0:0-19934]                    33.5    0.41 
+TRINITY_DN37840_c0_g1_i1 len=679 path=[0:0-678]                       32.0    0.71 
+TRINITY_DN30731_c0_g1_i1 len=352 path=[0:0-351]                       30.4    0.98 
+TRINITY_DN30731_c1_g1_i1 len=512 path=[0:0-511]                       31.2    1.0  
+TRINITY_DN22052_c0_g1_i1 len=408 path=[0:0-407]                       30.4    1.5  
+TRINITY_DN540_c2_g1_i1 len=1000 path=[0:0-999]                        31.2    1.6  
+TRINITY_DN3281_c0_g1_i1 len=3161 path=[0:0-3160]                      31.6    1.8  
+TRINITY_DN15775_c0_g1_i1 len=231 path=[0:0-230]                       28.5    2.3  
+TRINITY_DN19121_c0_g1_i1 len=331 path=[0:0-330]                       29.3    2.8  
+TRINITY_DN173_c0_g1_i6 len=46261 path=[0:0-2212 1:2213-2594 3:259...  30.8    3.0  
+TRINITY_DN173_c0_g1_i3 len=46261 path=[0:0-2212 1:2213-2594 4:259...  30.8    3.0  
+TRINITY_DN173_c0_g1_i5 len=46275 path=[0:0-2212 2:2213-3077 6:307...  30.8    3.0  
+TRINITY_DN540_c0_g1_i1 len=4639 path=[0:0-2675 1:2676-3543 3:3544...  30.8    3.1  
+TRINITY_DN540_c0_g1_i2 len=4639 path=[0:0-2675 2:2676-3543 3:3544...  30.8    3.1  
+TRINITY_DN769_c0_g1_i1 len=11343 path=[0:0-455 2:456-11342]           30.4    3.9  
+TRINITY_DN28841_c0_g1_i1 len=258 path=[0:0-257]                       28.1    4.0  
+TRINITY_DN27431_c0_g1_i1 len=689 path=[0:0-688]                       29.6    4.1  
+TRINITY_DN2518_c0_g1_i1 len=1441 path=[0:0-1440]                      29.6    5.6  
+TRINITY_DN74_c0_g3_i1 len=13215 path=[0:0-13214]                      29.6    7.3  
+TRINITY_DN4526_c0_g1_i1 len=2032 path=[0:0-2031]                      29.3    7.5  
+TRINITY_DN41928_c0_g1_i1 len=272 path=[0:0-271]                       27.3    7.9  
+TRINITY_DN10191_c0_g1_i1 len=285 path=[0:0-284]                       27.7    7.9  
+TRINITY_DN37308_c0_g1_i1 len=2026 path=[0:0-2025]                     29.3    8.8  
+TRINITY_DN6691_c0_g1_i1 len=4743 path=[0:0-4742]                      29.3    9.6  
+
+
+> TRINITY_DN440_c0_g1_i1 len=3215 path=[0:0-3214]
+Length=3215
+
+ Score = 798 bits (2061),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 381/381 (100%), Positives = 381/381 (100%), Gaps = 0/381 (0%)
+ Frame = +2
+
+Query  1     MAFISSGYNPAKPMEGRITDIGPHKYDEYFPPVIKKNFGKWLYHEILEPGVLMHVAEGGD  60
+             MAFISSGYNPAKPMEGRITDIGPHKYDEYFPPVIKKNFGKWLYHEILEPGVLMHVAEGGD
+Sbjct  1649  MAFISSGYNPAKPMEGRITDIGPHKYDEYFPPVIKKNFGKWLYHEILEPGVLMHVAEGGD  1828
+
+Query  61    KVYTVRVGGTRTMSITHIRELCDIADKYCGGYLRWTTRNNIEFMVEDEETMKALRDDLNS  120
+             KVYTVRVGGTRTMSITHIRELCDIADKYCGGYLRWTTRNNIEFMVEDEETMKALRDDLNS
+Sbjct  1829  KVYTVRVGGTRTMSITHIRELCDIADKYCGGYLRWTTRNNIEFMVEDEETMKALRDDLNS  2008
+
+Query  121   RKFDGGSFKFPVGGTGAGISNMVHTQGWVHCHTPATDASGPVKCVMDAIFDDFKDMRLPA  180
+             RKFDGGSFKFPVGGTGAGISNMVHTQGWVHCHTPATDASGPVKCVMDAIFDDFKDMRLPA
+Sbjct  2009  RKFDGGSFKFPVGGTGAGISNMVHTQGWVHCHTPATDASGPVKCVMDAIFDDFKDMRLPA  2188
+
+Query  181   PVRIALACCINMCGAVHCSDIGLVGIHRKPPMIDHEWADQLCEIPLAVAACPTAAVRPTK  240
+             PVRIALACCINMCGAVHCSDIGLVGIHRKPPMIDHEWADQLCEIPLAVAACPTAAVRPTK
+Sbjct  2189  PVRIALACCINMCGAVHCSDIGLVGIHRKPPMIDHEWADQLCEIPLAVAACPTAAVRPTK  2368
+
+Query  241   VEHNGQKVNSIAIKEDRCMYCGNCYTMCPALPIADHEGDGIAIMVGGKVSNRISMPKFSK  300
+             VEHNGQKVNSIAIKEDRCMYCGNCYTMCPALPIADHEGDGIAIMVGGKVSNRISMPKFSK
+Sbjct  2369  VEHNGQKVNSIAIKEDRCMYCGNCYTMCPALPIADHEGDGIAIMVGGKVSNRISMPKFSK  2548
+
+Query  301   VVVGYIPNEPPRWPSLTKTVKHIVEVYAANANKYERLGDWAERIGWESFFKLTGLKFTHH  360
+             VVVGYIPNEPPRWPSLTKTVKHIVEVYAANANKYERLGDWAERIGWESFFKLTGLKFTHH
+Sbjct  2549  VVVGYIPNEPPRWPSLTKTVKHIVEVYAANANKYERLGDWAERIGWESFFKLTGLKFTHH  2728
+
+Query  361   LIDDFRDPAYYTWRQSTQFKF  381
+             LIDDFRDPAYYTWRQSTQFKF
+Sbjct  2729  LIDDFRDPAYYTWRQSTQFKF  2791
+
+
+> TRINITY_DN1754_c0_g1_i1 len=3106 path=[0:0-3105]
+Length=3106
+
+ Score = 59.7 bits (143),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 67/282 (24%), Positives = 117/282 (41%), Gaps = 31/282 (11%)
+ Frame = +1
+
+Query  70    TRTMSITHIR--ELCDIADKYCGGYLRWTTRNNIEFMVEDEETMKALRDDLNSRKFDGGS  127
+             TR   IT     ++ + A+KY  G++  TTR  IE      E ++  R+ +     +   
+Sbjct  637   TRNGKITAAESAKIAEAAEKYGDGHVALTTRLTIEVTGIPYENIEPFRECVAEAGLE---  807
+
+Query  128   FKFPVGGTGAGISNMVHTQGWVHCHTPATDASGPVKCVMDAIFDDFKDMRLPAPVRIALA  187
+                  GGTG+ +  +V  +G   C     D       +    +  + +++LP   +IA+ 
+Sbjct  808   ----TGGTGSKVRPVVSCKGTT-CQYGLCDTFALADRIHTRFYKGYHEVKLPHKFKIAVG  972
+
+Query  188   CCINMCGAVHCSDIGLVGIHRKPPMIDHEWADQLCEIPLAVAACPTAAVRPTKVEHNGQK  247
+              C N C     +D G++G  +  P  D +   + C+  + V ACP +A     VE     
+Sbjct  973   GCPNNCVKPDLNDFGIIG--QSIPANDADNC-KGCKSCVVVDACPVSAA---AVED----  1122
+
+Query  248   VNSIAIKEDRCMYCGNCYTMCPALPIADHEGDGIAIMVGGKVSNRISMPK-FSKVVVGYI  306
+               ++ I E+ C  CG C + CP   + + E  G   ++GG+   R +  +   K+     
+Sbjct  1123  -GTVRIPEEECNNCGRCTSKCPFDAVTE-ETKGFKAVIGGRWGKRTAEGRELGKIF----  1284
+
+Query  307   PNEPPRWPSLTKTVKHIVEVYAANANKYERLGDWAERIGWES  348
+                      L    K I+ ++       ER  D  ER+G+E+
+Sbjct  1285  ---KSEEEVLEVLEKAIL-LFREQGITGERFSDTIERLGFEN  1398
+
+
+> TRINITY_DN39135_c0_g1_i1 len=487 path=[0:0-486]
+Length=487
+
+ Score = 35.4 bits (80),  Expect = 0.033, Method: Compositional matrix adjust.
+ Identities = 27/103 (26%), Positives = 40/103 (39%), Gaps = 9/103 (9%)
+ Frame = +1
+
+Query  249  NSIAIKEDRCMYCGNCYTMCPALPIADHEGDGIAIMVGGKVSNRISMPKFSKVVVGYIPN  308
+            N + I  D+C YCG C   CP    A     G  +  GG   N+I   +    +V     
+Sbjct  16   NKVTINRDQCNYCGRCVKSCPT--DAWEGNSGYLVSFGGLFGNQIYKGEQLLPIV-----  174
+
+Query  309  EPPRWPSLTKTVKHIVEVYAANANKYERLGDWAERIGWESFFK  351
+                  +L +     +  +  +AN  ER     +R+G E F K
+Sbjct  175  --HDKETLFRVTDAAIAFFRDHANPGERFRLTLQRVGEEEFRK  297
+
+
+> TRINITY_DN5110_c0_g1_i1 len=7445 path=[0:0-7444]
+Length=7445
+
+ Score = 36.2 bits (82),  Expect = 0.067, Method: Compositional matrix adjust.
+ Identities = 29/104 (28%), Positives = 42/104 (40%), Gaps = 7/104 (7%)
+ Frame = -1
+
+Query  232   PTAAVRPTKVEHNGQKVNSIAIKEDRCMYCGNCYTMCPA---LPIADHEGDGIAIMVGGK  288
+             P+ A  P KV    + V     + DRC+ CG C   CP      I D EGDG+    G +
+Sbjct  1760  PSLAEAPAKVAARFEDVEFWQQETDRCLSCGACTYFCPTCYCFNITD-EGDGLNGREGRR  1584
+
+Query  289   VS--NRISMPKFSKVVVGYIPNEPPRWPSLTKTVKHIVEVYAAN  330
+             +   +    P F++   G+ P    +   +   V H    Y  N
+Sbjct  1583  LRTWDNCMSPLFTREASGHNPRT-AKALRMRNRVSHKFATYPEN  1455
+
+
+> TRINITY_DN677_c0_g3_i1 len=51993 path=[1:0-14168 11:14169-14197 
+12:14198-14353 15:14354-50090 20:50091-51992]
+Length=51993
+
+ Score = 33.9 bits (76),  Expect = 0.32, Method: Compositional matrix adjust.
+ Identities = 23/81 (28%), Positives = 36/81 (44%), Gaps = 7/81 (9%)
+ Frame = -1
+
+Query  236    VRPTKVE-HNGQKVNSIAIKEDRCMYCGNCYTMCPALPIA-----DHEGDGIAIMVGGKV  289
+              +R T +E  NG ++ +   K+  C+YC N    C    +      +HE        G  V
+Sbjct  30579  IRQTAMETENGFRITTYKKKDLACLYCPNATARCAIRTLTRWIKRNHELYEALAHTGYNV  30400
+
+Query  290    SNRISMPKFSKVVVGYIPNEP  310
+                R  MPK   ++V Y+ +EP
+Sbjct  30399  RTRTFMPKQVSLIVQYL-DEP  30340
+
+
+ Score = 33.9 bits (76),  Expect = 0.32, Method: Compositional matrix adjust.
+ Identities = 23/81 (28%), Positives = 36/81 (44%), Gaps = 7/81 (9%)
+ Frame = +3
+
+Query  236    VRPTKVE-HNGQKVNSIAIKEDRCMYCGNCYTMCPALPIA-----DHEGDGIAIMVGGKV  289
+              +R T +E  NG ++ +   K+  C+YC N    C    +      +HE        G  V
+Sbjct  21426  IRQTAMETENGFRITTYKKKDLACLYCPNATARCAIRTLTRWIKRNHELYEALAHTGYNV  21605
+
+Query  290    SNRISMPKFSKVVVGYIPNEP  310
+                R  MPK   ++V Y+ +EP
+Sbjct  21606  RTRTFMPKQVSLIVQYL-DEP  21665
+
+
+> TRINITY_DN677_c0_g3_i3 len=52098 path=[1:0-14168 11:14169-14197 
+12:14198-14353 15:14354-50090 17:50091-50195 20:50196-52097]
+Length=52098
+
+ Score = 33.9 bits (76),  Expect = 0.32, Method: Compositional matrix adjust.
+ Identities = 23/81 (28%), Positives = 36/81 (44%), Gaps = 7/81 (9%)
+ Frame = +3
+
+Query  236    VRPTKVE-HNGQKVNSIAIKEDRCMYCGNCYTMCPALPIA-----DHEGDGIAIMVGGKV  289
+              +R T +E  NG ++ +   K+  C+YC N    C    +      +HE        G  V
+Sbjct  21426  IRQTAMETENGFRITTYKKKDLACLYCPNATARCAIRTLTRWIKRNHELYEALAHTGYNV  21605
+
+Query  290    SNRISMPKFSKVVVGYIPNEP  310
+                R  MPK   ++V Y+ +EP
+Sbjct  21606  RTRTFMPKQVSLIVQYL-DEP  21665
+
+
+ Score = 33.9 bits (76),  Expect = 0.32, Method: Compositional matrix adjust.
+ Identities = 23/81 (28%), Positives = 36/81 (44%), Gaps = 7/81 (9%)
+ Frame = -1
+
+Query  236    VRPTKVE-HNGQKVNSIAIKEDRCMYCGNCYTMCPALPIA-----DHEGDGIAIMVGGKV  289
+              +R T +E  NG ++ +   K+  C+YC N    C    +      +HE        G  V
+Sbjct  30579  IRQTAMETENGFRITTYKKKDLACLYCPNATARCAIRTLTRWIKRNHELYEALAHTGYNV  30400
+
+Query  290    SNRISMPKFSKVVVGYIPNEP  310
+                R  MPK   ++V Y+ +EP
+Sbjct  30399  RTRTFMPKQVSLIVQYL-DEP  30340
+
+
+> TRINITY_DN33758_c0_g1_i1 len=316 path=[0:0-315]
+Length=316
+
+ Score = 31.6 bits (70),  Expect = 0.36, Method: Composition-based stats.
+ Identities = 21/65 (32%), Positives = 30/65 (46%), Gaps = 11/65 (17%)
+ Frame = -3
+
+Query  211  PMIDHEWADQLCEIPLAVAACPTAAVRPTKVEHNGQKVNSIAIKEDRCMYCGNCYTMCPA  270
+            P+ID   AD+     + V +CP   +         Q V ++A  ED C+ CG C   CPA
+Sbjct  236  PVID---ADECIACGVCVDSCPAGVLEL-------QDVATVA-DEDSCVACGACQDACPA  90
+
+Query  271  LPIAD  275
+              I +
+Sbjct  89   GAITE  75
+
+
+> TRINITY_DN1505_c0_g1_i2 len=19935 path=[0:0-19934]
+Length=19935
+
+ Score = 33.5 bits (75),  Expect = 0.41, Method: Compositional matrix adjust.
+ Identities = 22/81 (27%), Positives = 38/81 (47%), Gaps = 10/81 (12%)
+ Frame = -2
+
+Query  235   AVRPTKVEHNGQKVNSIAIKE--DRCMYCGNCYTMCPALPIADHEGDGIAIMVGGKVSN-  291
+              V PT++ HN  K+N++ + E  D  +   +  T+ P L + D  GD +  +      + 
+Sbjct  3470  GVLPTRITHNDTKINNVMLDEDTDHAVCVIDLDTVMPGLVLYDF-GDMVRTVTPPTEEDE  3294
+
+Query  292   ------RISMPKFSKVVVGYI  306
+                   R+ MP F  +V GY+
+Sbjct  3293  EDLDKVRMRMPMFQSIVEGYL  3231
+
+
+> TRINITY_DN37840_c0_g1_i1 len=679 path=[0:0-678]
+Length=679
+
+ Score = 32.0 bits (71),  Expect = 0.71, Method: Compositional matrix adjust.
+ Identities = 14/40 (35%), Positives = 22/40 (55%), Gaps = 7/40 (18%)
+ Frame = -3
+
+Query  230  ACPTAAVRPTKVEHNGQKVNSIAIKEDRCMYCGNCYTMCP  269
+            +CP  A+  +K EH  + ++     E +C+YCG C   CP
+Sbjct  665  SCPVKAI--SKDEHGVEHID-----ESKCIYCGKCMNACP  567
+
+
+> TRINITY_DN30731_c0_g1_i1 len=352 path=[0:0-351]
+Length=352
+
+ Score = 30.4 bits (67),  Expect = 0.98, Method: Composition-based stats.
+ Identities = 19/50 (38%), Positives = 28/50 (56%), Gaps = 5/50 (10%)
+ Frame = -3
+
+Query  67   VGGTRTMSITHIRELCDIADKYCGGYLRWTTRNNIEF---MVEDEETMKA  113
+            VGG  T    +I+ + ++A+KY  GY+  T+R  IE      ED E +KA
+Sbjct  326  VGGNLTAE--NIKTVAEVAEKYGKGYVHMTSRQGIEIPFVNFEDIEEVKA  183
+
+
+> TRINITY_DN30731_c1_g1_i1 len=512 path=[0:0-511]
+Length=512
+
+ Score = 31.2 bits (69),  Expect = 1.0, Method: Compositional matrix adjust.
+ Identities = 39/173 (23%), Positives = 61/173 (35%), Gaps = 22/173 (13%)
+ Frame = +2
+
+Query  179  PAPVRIALACCINMCGAVHCSDIGLVGIHRKPPMIDHEWADQLCEIPLAVAACPTAAVRP  238
+            P   +  +  C N C     +D+G+ G      M      D   +  + V AC   A+  
+Sbjct  2    PHKFKFGVTGCQNNCLKAEENDVGIKG-----GMTVECSHDDCIQCGVCVKACREGAL--  160
+
+Query  239  TKVEHNGQKVNSIAIKEDRCMYCGNCYTMCPALPIADHEGDGIAIMVGGKVSNRISMPKF  298
+                    +   I I  D+C  C  C   CP    A     G  +  GG   N I     
+Sbjct  161  ------SMEDGRIVIDRDKCNNCARCVKSCPT--DAWKGTPGYIVSFGGLFGNHIYK---  307
+
+Query  299  SKVVVGYIPNEPPRWPSLTKTVKHIVEVYAANANKYERLGDWAERIGWESFFK  351
+             + +V  I ++     +L +     +  +  +AN  ER     +R+G E F K
+Sbjct  308  GEQLVPIIRDK----ETLFRVTDAAISFFEKHANGGERFRLTLQRVGEEEFKK  454
+
+
+> TRINITY_DN22052_c0_g1_i1 len=408 path=[0:0-407]
+Length=408
+
+ Score = 30.4 bits (67),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 17/45 (38%), Positives = 22/45 (49%), Gaps = 4/45 (9%)
+ Frame = -1
+
+Query  226  LAVAACPTAAVRPT-KVEHNGQKVNSIAIKEDRCMYCGNCYTMCP  269
+            L VA CP   +RP+ +    G +V      E RC  C +C  MCP
+Sbjct  126  LCVAVCPAHIIRPSGRFNRQGYEVMET---EGRCTGCASCALMCP  1
+
+
+> TRINITY_DN540_c2_g1_i1 len=1000 path=[0:0-999]
+Length=1000
+
+ Score = 31.2 bits (69),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 14/40 (35%), Positives = 22/40 (55%), Gaps = 7/40 (18%)
+ Frame = -2
+
+Query  230  ACPTAAVRPTKVEHNGQKVNSIAIKEDRCMYCGNCYTMCP  269
+            +CP  A+  +K EH  + ++     E +C+YCG C   CP
+Sbjct  888  SCPVKAI--SKDEHGIEHID-----ESKCIYCGKCMNACP  790
+
+
+> TRINITY_DN3281_c0_g1_i1 len=3161 path=[0:0-3160]
+Length=3161
+
+ Score = 31.6 bits (70),  Expect = 1.8, Method: Compositional matrix adjust.
+ Identities = 38/165 (23%), Positives = 66/165 (40%), Gaps = 16/165 (10%)
+ Frame = -1
+
+Query  179  PAPVRIALACCINMCGAVHCSDIGLVGIHRKPPMIDHEWADQLCEIPLAVAACPTAAVRP  238
+            P  +++++A C N C   H  D G++G  +  P+ D    D+       V  C  AA R 
+Sbjct  659  PYHIKVSIAGCPNDCAKGHFQDFGIIGCTK--PIYD---IDRCIGCGACVDKCKGAATRV  495
+
+Query  239  TKVEHNGQKVNSIAIKEDRCMYCGNCYTMCPALPIADHEGDGIAIMVGGKVSNRISMPKF  298
+              +   G+    +      C+ CG C   CPA      + D   I++GG+   +   P+ 
+Sbjct  494  LSLNDKGK----VDKDPCCCVGCGECVIACPAGAWRRPDKDFYKIVIGGRTGKQ--YPRM  333
+
+Query  299  SKVVVGYIPNEP-----PRWPSLTKTVKHIVEVYAANANKYERLG  338
+             K+   ++  +        WP  ++ V     VY    +  +R G
+Sbjct  332  GKMFANWLTEDSVLAIMSNWPKFSEWVLGGKPVYLHGGHLIDRAG  198
+
+
+> TRINITY_DN15775_c0_g1_i1 len=231 path=[0:0-230]
+Length=231
+
+ Score = 28.5 bits (62),  Expect = 2.3, Method: Composition-based stats.
+ Identities = 15/60 (25%), Positives = 24/60 (40%), Gaps = 12/60 (20%)
+ Frame = -1
+
+Query  214  DHEWADQL----CEIPLAVAACPTAAVRPTKVEHNGQKVNSIAIKEDRCMYCGNCYTMCP  269
+            DH W   +    CE       CP  A+         ++   I +++ RC+ C +C   CP
+Sbjct  165  DHSWTTAVACHQCEDAPCANVCPVDAI--------SREQGHIFVEQTRCIGCKSCMLACP  10
+
+
+> TRINITY_DN19121_c0_g1_i1 len=331 path=[0:0-330]
+Length=331
+
+ Score = 29.3 bits (64),  Expect = 2.8, Method: Composition-based stats.
+ Identities = 8/18 (44%), Positives = 14/18 (78%), Gaps = 0/18 (0%)
+ Frame = -1
+
+Query  253  IKEDRCMYCGNCYTMCPA  270
+            +++D+C+ CG C  +CPA
+Sbjct  55   VEKDKCVACGRCVEVCPA  2
+
+
+> TRINITY_DN173_c0_g1_i6 len=46261 path=[0:0-2212 1:2213-2594 3:2595-2727 
+5:2728-3063 6:3064-3306 7:3307-3649 9:3650-4275 10:4276-4528 
+12:4529-4554 13:4555-4588 15:4589-4623 16:4624-4671 
+18:4672-46260]
+Length=46261
+
+ Score = 30.8 bits (68),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 23/72 (32%), Positives = 32/72 (44%), Gaps = 4/72 (6%)
+ Frame = -2
+
+Query  115    RDDLNSR-KFDGGSFKFPVGGTGAGISNMVHTQGWV--HCHTPATDASGPVKCVMDAIFD  171
+              RDD +++  F G    +  GG   GI  +V     V  H   PA +  GPV+ V      
+Sbjct  44199  RDDASAKGAFAGALCTYQ*GGDAVGIF-LVGIAAPVCHHVEKPAVEQFGPVRVVAGYCLG  44023
+
+Query  172    DFKDMRLPAPVR  183
+              + +D   P PVR
+Sbjct  44022  ECQDTVFPVPVR  43987
+
+
+ Score = 30.8 bits (68),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 23/72 (32%), Positives = 32/72 (44%), Gaps = 4/72 (6%)
+ Frame = -3
+
+Query  115    RDDLNSR-KFDGGSFKFPVGGTGAGISNMVHTQGWV--HCHTPATDASGPVKCVMDAIFD  171
+              RDD +++  F G    +  GG   GI  +V     V  H   PA +  GPV+ V      
+Sbjct  28136  RDDASAKGAFAGALCTYQ*GGDAVGIF-LVGIAAPVCHHVEKPAVEQFGPVRVVAGYCLG  27960
+
+Query  172    DFKDMRLPAPVR  183
+              + +D   P PVR
+Sbjct  27959  ECQDTVFPVPVR  27924
+
+
+> TRINITY_DN173_c0_g1_i3 len=46261 path=[0:0-2212 1:2213-2594 4:2595-2727 
+5:2728-3063 6:3064-3306 7:3307-3649 9:3650-4275 11:4276-4528 
+12:4529-4554 14:4555-4588 15:4589-4623 17:4624-4671 
+18:4672-46260]
+Length=46261
+
+ Score = 30.8 bits (68),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 23/72 (32%), Positives = 32/72 (44%), Gaps = 4/72 (6%)
+ Frame = -2
+
+Query  115    RDDLNSR-KFDGGSFKFPVGGTGAGISNMVHTQGWV--HCHTPATDASGPVKCVMDAIFD  171
+              RDD +++  F G    +  GG   GI  +V     V  H   PA +  GPV+ V      
+Sbjct  44199  RDDASAKGAFAGALCTYQ*GGDAVGIF-LVGIAAPVCHHVEKPAVEQFGPVRVVAGYCLG  44023
+
+Query  172    DFKDMRLPAPVR  183
+              + +D   P PVR
+Sbjct  44022  ECQDTVFPVPVR  43987
+
+
+ Score = 30.8 bits (68),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 23/72 (32%), Positives = 32/72 (44%), Gaps = 4/72 (6%)
+ Frame = -3
+
+Query  115    RDDLNSR-KFDGGSFKFPVGGTGAGISNMVHTQGWV--HCHTPATDASGPVKCVMDAIFD  171
+              RDD +++  F G    +  GG   GI  +V     V  H   PA +  GPV+ V      
+Sbjct  28136  RDDASAKGAFAGALCTYQ*GGDAVGIF-LVGIAAPVCHHVEKPAVEQFGPVRVVAGYCLG  27960
+
+Query  172    DFKDMRLPAPVR  183
+              + +D   P PVR
+Sbjct  27959  ECQDTVFPVPVR  27924
+
+
+> TRINITY_DN173_c0_g1_i5 len=46275 path=[0:0-2212 2:2213-3077 6:3078-3320 
+7:3321-3663 9:3664-4289 11:4290-4542 12:4543-4568 
+14:4569-4602 15:4603-4637 17:4638-4685 18:4686-46274]
+Length=46275
+
+ Score = 30.8 bits (68),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 23/72 (32%), Positives = 32/72 (44%), Gaps = 4/72 (6%)
+ Frame = -2
+
+Query  115    RDDLNSR-KFDGGSFKFPVGGTGAGISNMVHTQGWV--HCHTPATDASGPVKCVMDAIFD  171
+              RDD +++  F G    +  GG   GI  +V     V  H   PA +  GPV+ V      
+Sbjct  44213  RDDASAKGAFAGALCTYQ*GGDAVGIF-LVGIAAPVCHHVEKPAVEQFGPVRVVAGYCLG  44037
+
+Query  172    DFKDMRLPAPVR  183
+              + +D   P PVR
+Sbjct  44036  ECQDTVFPVPVR  44001
+
+
+ Score = 30.8 bits (68),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 23/72 (32%), Positives = 32/72 (44%), Gaps = 4/72 (6%)
+ Frame = -3
+
+Query  115    RDDLNSR-KFDGGSFKFPVGGTGAGISNMVHTQGWV--HCHTPATDASGPVKCVMDAIFD  171
+              RDD +++  F G    +  GG   GI  +V     V  H   PA +  GPV+ V      
+Sbjct  28150  RDDASAKGAFAGALCTYQ*GGDAVGIF-LVGIAAPVCHHVEKPAVEQFGPVRVVAGYCLG  27974
+
+Query  172    DFKDMRLPAPVR  183
+              + +D   P PVR
+Sbjct  27973  ECQDTVFPVPVR  27938
+
+
+> TRINITY_DN540_c0_g1_i1 len=4639 path=[0:0-2675 1:2676-3543 3:3544-4638]
+Length=4639
+
+ Score = 30.8 bits (68),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 14/40 (35%), Positives = 22/40 (55%), Gaps = 7/40 (18%)
+ Frame = +2
+
+Query  230  ACPTAAVRPTKVEHNGQKVNSIAIKEDRCMYCGNCYTMCP  269
+            +CP  A+  +K EH  + ++     E +C+YCG C   CP
+Sbjct  197  SCPVKAI--SKDEHGIEHID-----ESKCIYCGKCMNACP  295
+
+
+> TRINITY_DN540_c0_g1_i2 len=4639 path=[0:0-2675 2:2676-3543 3:3544-4638]
+Length=4639
+
+ Score = 30.8 bits (68),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 14/40 (35%), Positives = 22/40 (55%), Gaps = 7/40 (18%)
+ Frame = +2
+
+Query  230  ACPTAAVRPTKVEHNGQKVNSIAIKEDRCMYCGNCYTMCP  269
+            +CP  A+  +K EH  + ++     E +C+YCG C   CP
+Sbjct  197  SCPVKAI--SKDEHGIEHID-----ESKCIYCGKCMNACP  295
+
+
+> TRINITY_DN769_c0_g1_i1 len=11343 path=[0:0-455 2:456-11342]
+Length=11343
+
+ Score = 30.4 bits (67),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 15/42 (36%), Positives = 20/42 (48%), Gaps = 11/42 (26%)
+ Frame = +1
+
+Query  230   ACPTAAVRPTK--VEHNGQKVNSIAIKEDRCMYCGNCYTMCP  269
+             ACP  A+   +  +EH         I E +C+YCG C   CP
+Sbjct  6940  ACPVKAISKDEKGIEH---------IDESKCIYCGKCLNACP  7038
+
+
+> TRINITY_DN28841_c0_g1_i1 len=258 path=[0:0-257]
+Length=258
+
+ Score = 28.1 bits (61),  Expect = 4.0, Method: Composition-based stats.
+ Identities = 10/35 (29%), Positives = 20/35 (57%), Gaps = 2/35 (6%)
+ Frame = +3
+
+Query  252  AIKEDRCMYCGNCYTMCP--ALPIADHEGDGIAIM  284
+            A++   C+ CG C  +CP  AL + +H+   + ++
+Sbjct  18   ALESTYCLGCGACVKVCPEHALKLVEHDASNLVVV  122
+
+
+> TRINITY_DN27431_c0_g1_i1 len=689 path=[0:0-688]
+Length=689
+
+ Score = 29.6 bits (65),  Expect = 4.1, Method: Compositional matrix adjust.
+ Identities = 20/79 (25%), Positives = 33/79 (42%), Gaps = 10/79 (13%)
+ Frame = +1
+
+Query  252  AIKEDRCMYCGNCYTMCPALPIADHEGDGIAIMVGGKVSNRISMPKFSKVVVGYIPNEPP  311
+            +I  D+C  CG C  +CP   +A+H  +          SN I   K ++  +  + + P 
+Sbjct  151  SIAPDKCAGCGRCIGVCPVDAVANHCDE----------SNDILNKKIAEYSLAVLKDRPH  300
+
+Query  312  RWPSLTKTVKHIVEVYAAN  330
+               SL   V    + +A N
+Sbjct  301  FHISLVVDVSPYCDCHAEN  357
+
+
+> TRINITY_DN2518_c0_g1_i1 len=1441 path=[0:0-1440]
+Length=1441
+
+ Score = 29.6 bits (65),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 17/43 (40%), Positives = 23/43 (53%), Gaps = 3/43 (7%)
+ Frame = +3
+
+Query  295   MPKFSKVVVGYIPNEPPRWPSLTKTVKHIVEVYAANANKYERL  337
+             +P + K  +GYIPN   R   L+K  +  VEVYA      E+L
+Sbjct  1203  LPFYGKAAIGYIPN--GRVAGLSKLAR-TVEVYARRLQLQEQL  1322
+
+
+> TRINITY_DN74_c0_g3_i1 len=13215 path=[0:0-13214]
+Length=13215
+
+ Score = 29.6 bits (65),  Expect = 7.3, Method: Compositional matrix adjust.
+ Identities = 14/45 (31%), Positives = 22/45 (49%), Gaps = 1/45 (2%)
+ Frame = -3
+
+Query  231   CPTAAVRPT-KVEHNGQKVNSIAIKEDRCMYCGNCYTMCPALPIA  274
+             CPT A++    +  +        I  +RC+ CG C  +CPA P +
+Sbjct  6589  CPTGAIQMVPSIPEDKDSPKIPVINVERCIGCGACENLCPARPFS  6455
+
+
+> TRINITY_DN4526_c0_g1_i1 len=2032 path=[0:0-2031]
+Length=2032
+
+ Score = 29.3 bits (64),  Expect = 7.5, Method: Compositional matrix adjust.
+ Identities = 21/64 (33%), Positives = 30/64 (47%), Gaps = 8/64 (13%)
+ Frame = +3
+
+Query  231   CPTAAVRPTKVEHNGQKVNSI-AIKEDRCMYCGNCYTMCPALPIADHEGDGIAIMVGGKV  289
+             CP AA++    +        I AI  +RC+ CG C  +CP+ P +       AI V G  
+Sbjct  1485  CPAAAIQMVASDPEIADSPKIPAINVERCIGCGACENLCPSRPFS-------AIYVTGHQ  1643
+
+Query  290   SNRI  293
+              +RI
+Sbjct  1644  MHRI  1655
+
+
+> TRINITY_DN41928_c0_g1_i1 len=272 path=[0:0-271]
+Length=272
+
+ Score = 27.3 bits (59),  Expect = 7.9, Method: Composition-based stats.
+ Identities = 12/31 (39%), Positives = 19/31 (61%), Gaps = 3/31 (10%)
+ Frame = +2
+
+Query  253  IKEDR-CMYCGNCYTMCP--ALPIADHEGDG  280
+            IK++R CM+C +C  +CP  A+ +  H  D 
+Sbjct  35   IKDERLCMHCHHCLALCPTGAISVDGHNPDA  127
+
+
+> TRINITY_DN10191_c0_g1_i1 len=285 path=[0:0-284]
+Length=285
+
+ Score = 27.7 bits (60),  Expect = 7.9, Method: Composition-based stats.
+ Identities = 15/35 (43%), Positives = 21/35 (60%), Gaps = 0/35 (0%)
+ Frame = +2
+
+Query  111  MKALRDDLNSRKFDGGSFKFPVGGTGAGISNMVHT  145
+            ++AL  DL+     G SF+F VG  GAG S ++ T
+Sbjct  5    IRALLTDLSLIADGGASFRFLVGRYGAGKSFLLQT  109
+
+
+> TRINITY_DN37308_c0_g1_i1 len=2026 path=[0:0-2025]
+Length=2026
+
+ Score = 29.3 bits (64),  Expect = 8.8, Method: Compositional matrix adjust.
+ Identities = 27/125 (22%), Positives = 45/125 (36%), Gaps = 6/125 (5%)
+ Frame = +1
+
+Query  232   PTAAVRPTKVEHNGQKVNSIAIKEDRCMYCGNCYTMCPALPIADHEGDGIAIMVGGKVSN  291
+             P  A  P +  H G K     I  ++C  CG C   CP   +   E   +  ++    S 
+Sbjct  727   PCEAACPVRAIHKGNK-GRAEIDFEKCTSCGRCMRACPFGAV--MERSEVLPVLRALASG  897
+
+Query  292   RISMPKFSKVVVGYIPNEPPRWPSLTKTV--KHIVEV-YAANANKYERLGDWAERIGWES  348
+             R      +  +VG     P R  +  + +    ++EV   A+        ++ ER+    
+Sbjct  898   RHVTALMAPAIVGQFSGGPARIVTALRRLGFSDVMEVALGADVTSQREAAEFVERMERGD  1077
+
+Query  349   FFKLT  353
+              F  T
+Sbjct  1078  TFMTT  1092
+
+
+> TRINITY_DN6691_c0_g1_i1 len=4743 path=[0:0-4742]
+Length=4743
+
+ Score = 29.3 bits (64),  Expect = 9.6, Method: Compositional matrix adjust.
+ Identities = 18/67 (27%), Positives = 26/67 (39%), Gaps = 3/67 (4%)
+ Frame = -3
+
+Query  212   MIDHEWADQLCEIPLAVAACPTAAVRPTKVEHNGQKVNSIAIKEDRCMYCGNCYTMCPAL  271
+             MI  E   + C     V++CP   +   K   + +      +   RC+ CG C   CP L
+Sbjct  2488  MIKVEDKSRCCGCEACVSSCPLQCIELVK---DKEGFMYPQVDTARCIDCGKCEKACPEL  2318
+
+Query  272   PIADHEG  278
+               A   G
+Sbjct  2317  VEAKGSG  2297
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.139    0.457    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3803144905
+
+
+  Database: User specified sequence set (Input:
+data/trinity_out_dir/Trinity.fasta).
+    Posted date:  Unknown
+  Number of letters in database: 55,488,881
+  Number of sequences in database:  45,832
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 13
+Window for multiple hits: 40
